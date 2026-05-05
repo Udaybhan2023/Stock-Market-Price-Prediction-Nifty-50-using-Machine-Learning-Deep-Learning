@@ -1,2 +1,8 @@
 # Stock-Market-Price-Prediction-Nifty-50-using-Machine-Learning-Deep-Learning
-This project focuses on predicting the Nifty 50 stock index closing prices using a combination of Machine Learning (ML) and Deep Learning (DL) techniques. The model leverages historical stock market data along with multiple technical indicators to improve prediction accuracy
+This project focuses on predicting Nifty 50 stock market closing prices using a combination of machine learning and deep learning techniques. It utilizes historical data collected from Yahoo Finance covering the period from 2019 to 2026, including features such as Open, High, Low, Close, and Volume. To enhance prediction performance, extensive feature engineering is applied by incorporating technical indicators like Moving Averages (SMA, EMA), RSI, MACD, Bollinger Bands, ATR, and OBV.
+
+Multiple machine learning models including Linear Regression, Random Forest, XGBoost, and Support Vector Regression (SVR) are implemented and compared with deep learning models such as LSTM, GRU, and a hybrid CNN-LSTM architecture. The dataset ispreprocessed, scaled, and split chronologically to preserve time-series integrity. Model performance is evaluated using standard metrics like RMSE, MAE, MAPE, and R² score.
+
+Results show that Linear Regression outperforms other models with very high accuracy, indicating strong linear relationships in the dataset. While deep learning models are powerful, they underperform in this case due to limited data size and higher complexity. The project also includes visualizations such as candlestick charts, feature importance graphs, and actual vs predicted comparisons to provide deeper insights.
+
+Overall, this project demonstrates the effectiveness of combining feature engineering with machine learning techniques for financial forecasting, while also highlighting the limitations and challenges associated with deep learning in time-series prediction tasks.
